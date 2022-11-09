@@ -64,7 +64,7 @@ public:
 		else {
 			node* del = new  node;
 
-			head				= del;
+			del=head;
 			head = head->next;
 			delete del;
 		}
